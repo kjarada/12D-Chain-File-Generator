@@ -24,8 +24,8 @@ Intro = r''' <?xml version="1.0"?>
         <project_name>ZONE56 MASTER DESIGN</project_name>
         <project_guid>{DC4BE034-ED00-4e1c-BD91-71A51DB31897}</project_guid>
         <project_folder>c:\12dS\data\Trans4mrSYN\N2NS_1\03_MASTER_ZONE_56\01_12D_PROJECTS\01_DESIGN\ZONE56 MASTER DESIGN.12dmodel</project_folder>
-        <client>John Holland Pty Ltd - NSW</client>
-        <dongle>5c2d4716dd</dongle>
+        <client>KAMAL JARADA</client>
+        <dongle>XXXX</dongle>
         <environment/>
         <env4d>C:\Program Files\12d\12dmodel\14.00\set_ups\env.4d</env4d>
         <user>kjarada</user>
