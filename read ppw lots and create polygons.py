@@ -3,7 +3,7 @@ import chianTxtIntro, ChainBodyStg2XML, ChainBodyStg3XML
 
 pandas.set_option("display.max_rows", None)
 
-pathToExcelFile = r'C:\Users\kjarada\Desktop\BACKUP\Read PPW and Create polygons\export.xlsx'
+pathToExcelFile = r'..\export.xlsx'
 FSTG2 = open('PPW_STG2_Create_Polygons.chain',"w")
 FSTG3 = open('PPW_STG3_Create_Polygons.chain',"w")
 
