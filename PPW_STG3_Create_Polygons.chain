@@ -1,0 +1,3244 @@
+ <?xml version="1.0"?>
+  <xml12d xmlns="http://www.12d.com/schema/xml12d-10.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="English" version="1.0" date="2021-05-11" time="11:14:43" xsi:schemaLocation="http://www.12d.com/schema/xml12d-10.0 http://www.12d.com/schema/xml12d-10.0/xml12d.xsd">
+    <meta_data>
+      <units>
+        <metric>
+          <linear>metre</linear>
+          <area>square metre</area>
+          <volume>cubic metre</volume>
+          <temperature>celsius</temperature>
+          <pressure>millibars</pressure>
+          <angular>decimal degrees</angular>
+          <direction>decimal degrees</direction>
+        </metric>
+      </units>
+      <application>
+        <name>12d Model</name>
+        <manufacturer>12d Solutions Pty Ltd</manufacturer>
+        <manufacturer_url>www.12d.com</manufacturer_url>
+        <application>12d Model 14.0C2j</application>
+        <application_build>14.2.10.79</application_build>
+        <application_path>C:\Program Files\12d\12dmodel\14.00\nt.x64\12d.exe</application_path>
+        <application_date_gmt>2021-01-20T01:27:50Z</application_date_gmt>
+        <application_date>2021-01-20T12:27:50</application_date>
+        <project_name>ZONE56 MASTER DESIGN</project_name>
+        <project_guid>{DC4BE034-ED00-4e1c-BD91-71A51DB31897}</project_guid>
+        <project_folder>c:\12dS\data\Trans4mrSYN\N2NS_1\03_MASTER_ZONE_56\01_12D_PROJECTS\01_DESIGN\ZONE56 MASTER DESIGN.12dmodel</project_folder>
+        <client>KAMAL JARADA</client>
+        <dongle>XXXX</dongle>
+        <environment/>
+        <env4d>C:\Program Files\12d\12dmodel\14.00\set_ups\env.4d</env4d>
+        <user>kjarada</user>
+        <export_file_name>CREATE BDY FOR TIN.chain</export_file_name>
+        <export_date_gmt>2021-05-11T01:14:43Z</export_date_gmt>
+        <export_date>2021-05-11T11:14:43</export_date>
+      </application>
+    </meta_data>
+      <Chain>
+      <version>1</version>
+      <Settings>
+        <Parameter_File/>
+        <Prompt_for_parameters>false</Prompt_for_parameters>
+        <Always_record_for_parameters>false</Always_record_for_parameters>
+        <Interactive>false</Interactive>
+      </Settings>
+      <Commands><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>697330.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>607910.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01669 Cut Inc Ground Preparation - Mainline and Siding - CH697.330 to CH697.910 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>693900.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>694000.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01664 Type C3 Insitu stabilisation - 250mm - CH693.900 to CH694.000 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling C3 </value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>691040.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>691760.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01662 Type E3 - Stage 3 - CH691.040 to CH691.760 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>689000.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>689750.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01660 Type E3 - Stage 3 - CH689.000 to CH689.750 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>688600.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>689000.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01653 Type E3 - Stage 3 - CH688.600 to CH689.000 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>695760.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>696700.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01632 Type E3 - Stage 3 - CH695.760 to CH696.700 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>686760.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>687440.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01631 Type E3 - Stage 3 - CH686.760 to CH687.440 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>695000.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>695760.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01592 Type E3 - Stage 3 - CH695.000 to CH695.760 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>696640.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>696750.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01585 Cut Inc Ground Preparation - CH696.640 - 696.750 Planned</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>blue</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>700960.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>701740.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01584 Cut Inc Ground Preparation - CH700,960 to 701,740 Planned</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>blue</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>700760.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>700920.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01583 Cut Inc Ground Preparation - CH700,760 to 700,920 Planned</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>blue</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>696460.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>696520.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01582 Type C3 - Stage 3 - CH696.460 to CH696.520 - Insitu 250mm  Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling C3 </value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>685890.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>686760.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01581 Type E3 - Stage 3 - CH685.890 to CH686.760 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>692610.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>693600.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01580 Type E3 - Stage 3 - CH692.610 to CH693.600 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>690300.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>690490.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01579 Type E3 - Stage 3 - CH690.300 to CH690.490 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>689140.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>689840.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01574 Type E3 - Stage 3 - CH691.040 to CH691.700 - Layer 1 - 400mm Planned</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>blue</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>689080.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>690300.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01572 Type E3 - Stage 3 - CH689.080 to CH690.300 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>695500.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>696640.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01571 Cut Inc Ground Preparation - CH695.500 - CH696.640 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>691040.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>691820.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01564 Type E3 - Stage 3 - CH691.040 to CH691.820 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>688540.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>689080.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01563 Type E3 - Stage 3 - CH688.540 to CH689.080 - Layer 1 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>694580.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>695500.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01558 Cut Inc Ground Preparation - CH694.580 - CH695.500 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>681930.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>682750.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01557 Type E3 - Stage 3 - CH681.925 to CH682.750 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>693700.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>694580.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01547 Cut Inc Ground Preparation - CH693.700 - CH694.580 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>682750.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>683400.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01503 Type E3 - Stage 3 - CH682.750 to CH683.400 - Layer 2 - 400mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 2</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>692800.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>693700.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01500 Cut Inc Ground Preparation - CH692.800 - CH693.700 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>690040.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>690800.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01470 Cut Inc Ground Preparation - CH690.040 - CH690.800 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>688540.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>690040.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01457 Cut Inc Ground Preparation - CH688.540 - CH690.040 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>682760.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>682800.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01417 Type C3 - Stage 3 - CH682.760 to CH682.800 - Insitu Chew - 300mm Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling C3 </value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>686080.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>686500.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01416 Cut Inc Ground Preparation - CH686.080 - CH686.500 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>681000.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>681800.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01410 Cut Inc Ground Preparation - CH681.000 - CH681.800 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>681800.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>683000.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01398 Cut Inc Ground Preparation - CH681.800 - CH683.000 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>683000.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>683750.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01389 Cut Inc Ground Preparation - CH683.000 - CH683.750 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>683750.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>684600.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01380 Cut Inc Ground Preparation - CH683.750 - CH684.600 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>684600.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>685370.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01377 Cut Inc Ground Preparation - CH684.600 - CH685.370 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>685370.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>685920.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01357 Cut Inc Ground Preparation - CH685.370 - CH685.920 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>685920.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>686080.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01330 Cut Inc Ground Preparation - CH685.920 - CH686.080 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>686500.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>687210.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01321 Cut Inc Ground Preparation - CH686.500 - CH687.210 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>687210.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>687470.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01317 Cut Inc Ground Preparation - CH687.210 - CH687.470 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>687940.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>688320.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-01167 Cut Inc Ground Preparation - CH687.940 - CH688.320
+ Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Cut, Inc Ground Preparation</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>652350.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>652920.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-00647 Type E3 - CH652.350 to CH652.920 - Layer 1 Open</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>yellow</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks Filling E3 Layer 1</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option><Manual_option>
+        <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
+        <Active>true</Active>
+        <Continue_on_failure>false</Continue_on_failure>
+        <Uses_parameters>false</Uses_parameters>
+        <Interactive>false</Interactive>
+        <Comments>
+        </Comments>
+        <Panel_Data><screen_layout>
+  <version>1.0</version>
+  <macro_panel>
+    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <flags>
+      <flag>-close_on_exit</flag>
+      <flag>-no_console</flag>
+    </flags>
+    <arguments>
+    </arguments>
+    <panel>
+      <name>Create_Polygons_By_CH_OS</name>
+      <x>200</x>
+      <y>200</y>
+      <select_box>
+        <name>Alignment</name>
+        <value>
+            <model_name>DES FRM STG3 Alignments V05</model_name>
+            <model_id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-000000000016D84D}</model_id>
+            <name>N2NS Mainline 115 6 9</name>
+            <id>{977B64D5-E792-46a8-B6C7-258E17F8DEAF-0000000000109D06}</id>
+        </value>
+      </select_box>
+      <input_box>
+        <name>Start Chainage</name>
+        <value>687500.0</value>
+      </input_box>
+      <input_box>
+        <name>End Chainage</name>
+        <value>688600.0</value>
+      </input_box>
+      <select_box>
+        <name>Left String</name>
+      </select_box>
+      <select_box>
+        <name>Right String</name>
+      </select_box>
+      <input_box>
+        <name>Left Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Right Offset</name>
+        <value>30</value>
+      </input_box>
+      <input_box>
+        <name>Name</name>
+        <value>WLD-N2NS-00216 Roydon Rd Formation Trial - Topsoil Removal - CH687.500 to CH688.600 Closed</value>
+      </input_box>
+      <input_box>
+        <name>Colour</name>
+        <value>green</value>
+      </input_box>
+      <input_box>
+        <name>Output Model</name>
+        <value>STG3 PPW BDY Earthworks - Topsoil Removal</value>
+      </input_box>
+    </panel>
+  </macro_panel>
+</screen_layout></Panel_Data>
+        <Panel_Name>Create_Polygons_By_CH_OS</Panel_Name>
+        <Clean_Up>1</Clean_Up>
+        <Buttons>
+          <Button>
+            <Name>Process</Name>
+            <Order>0</Order>
+          </Button>
+        </Buttons>
+        <Parameter_Mappings>
+        </Parameter_Mappings>
+      </Manual_option>
