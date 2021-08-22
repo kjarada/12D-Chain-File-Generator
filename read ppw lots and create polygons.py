@@ -26,7 +26,7 @@ def read_execl_file_and_return_data(pathToExcelFile):
     data = data.drop(indexNames, inplace=False)
 
 
-    data = data.drop_duplicates(subset=['Chainage End (km)',"Chainage End (km)" ], keep=False)
+    #data = data.drop_duplicates(subset=['Chainage End (km)',"Chainage End (km)" ], keep=False)
 
     # for index, row in data.iterrows():
     #     print(row)
@@ -35,14 +35,14 @@ def iter_over_data_and_write_chain(data):
     recordNotStoredCounter = 0
     for index, row in data.iterrows():
         #STAGE 2
-        if (str(row[4]).startswith("Stage 2")) & (str(row[6]) != "Abandoned") & ("Main Alignment" in str(row[7])):
-
+        if (str(row[4]).startswith("Stage 2")) & (str(row[6]) != "Abandoned"):
+            print(row[0])
             text = ChainBodyStg2XML.ChaintextStg2.replace("name1", (str(row[0]).replace(r"/", "-"))+" "+(row[5])+" "+ row[6])
             text = text.replace("ch1", str(row[1]*1000))
             text = text.replace("ch2", str(row[2]*1000))
             #Finding E3  
             if ("E3") in str(row[5]):
-
+                #print(row[5])
                 if ("SF") in str(row[5]):
 
                     if ("Layer 1" or "layer 1") in str(row[5]):
@@ -87,7 +87,7 @@ def iter_over_data_and_write_chain(data):
 
             FSTG2.write(text)
         #STAGE 3
-        elif (str(row[4]).startswith("Stage 3")) & (str(row[6]) != "Abandoned") & ("Main Alignment" in str(row[7])):
+        elif (str(row[4]).startswith("Stage 3")) & (str(row[6]) != "Abandoned"):
             
             text = ChainBodyStg3XML.ChaintextStg3.replace("name1", (str(row[0]).replace(r"/", "-"))+" "+(row[5])+" "+ row[6])
             text = text.replace("ch1", str(row[1]*1000))
@@ -138,7 +138,7 @@ def iter_over_data_and_write_chain(data):
                 text = text.replace("colorr", "red")
             FSTG3.write(text)
         else:
-            print(row)
+            #print(row)
             recordNotStoredCounter+=1
     print(recordNotStoredCounter)
 
@@ -153,7 +153,7 @@ def main():
     FSTG2.write(r'''</Commands>
     </Chain> 
     </xml12d>''')
-    FSTG2.write(r'''</Commands>
+    FSTG3.write(r'''</Commands>
     </Chain> 
     </xml12d>''')
     FSTG2.close
