@@ -1,6 +1,6 @@
 
 
-ChaintextStg2="""<Manual_option>
+Chaintext="""<Manual_option>
         <Name>Option Create_Polygons_By_CH_OS - Manual</Name>
         <Active>true</Active>
         <Continue_on_failure>false</Continue_on_failure>
@@ -25,10 +25,7 @@ ChaintextStg2="""<Manual_option>
       <select_box>
         <name>Alignment</name>
         <value>
-            <model_name>DES FRM STG2 Alignments V01</model_name>
-            <model_id>{9F3721BD-CB97-47b7-B43D-C3584DDCF237-0000000000B8CE49}</model_id>
-            <name>N2NS MainLine 115 3 5</name>
-            <id>{9F3721BD-CB97-47b7-B43D-C3584DDCF237-0000000000000530}</id>
+          xxALxx
         </value>
       </select_box>
       <input_box>
