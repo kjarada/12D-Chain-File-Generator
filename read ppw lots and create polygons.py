@@ -3,7 +3,7 @@ import chianTxtIntro, ChainBodyXML
 
 pandas.set_option("display.max_rows", None)
 
-pathToExcelFile = r'..\export.xlsx'
+pathToExcelFile = r'export.xlsx'
 FSTG2 = open('PPW_STG2_Create_Polygons.chain',"w")
 FSTG3 = open('PPW_STG3_Create_Polygons.chain',"w")
 ALSTG2 = r"<model_name>DES FRM STG2 Alignments V05</model_name><model_id>{3B53B647-02B1-4808-87C6-D0474E81EB80-0000000000002034}</model_id><name>N2NS MainLine 115 3 5</name><id>{3B53B647-02B1-4808-87C6-D0474E81EB80-0000000000002E46}</id>"
@@ -36,6 +36,9 @@ def read_execl_file_and_return_data(pathToExcelFile):
     # for index, row in data.iterrows():
     #     print(row)
     return data
+
+
+    
 def iter_over_data_and_write_chain(data, AlignmentStg2, AlignmentStg3):
     recordNotStoredCounter = 0
 
