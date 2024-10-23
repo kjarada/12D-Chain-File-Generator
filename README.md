@@ -29,7 +29,7 @@ Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/yourusername/chain-file-generator.git
+git clone https://github.com/kjarada/12D-Chain-File-Generator.git
 cd chain-file-generator
 Install Required Libraries
 
