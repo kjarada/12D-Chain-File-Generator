@@ -1,3 +1,4 @@
+#change this as per your project metadata
 
 
 Chaintext="""<Manual_option>
@@ -11,7 +12,7 @@ Chaintext="""<Manual_option>
         <Panel_Data><screen_layout>
   <version>1.0</version>
   <macro_panel>
-    <name>Synergy12d://trans4mr.12dsynergycloud.com/N2NS/N2NS_CONTRACTORS/15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
+    <name>./15_USER LIB/Create_Polygons_By_CH_OS.4do</name>
     <flags>
       <flag>-close_on_exit</flag>
       <flag>-no_console</flag>
